@@ -15,7 +15,7 @@ jobs:
       # Due to the insufficient memory allocated by default, CodeQL sometimes requires more to be manually allocated
       - name: Configure Pagefile
         id: config_pagefile
-        uses: al-cheb/configure-pagefile-action@v1.2
+        uses: al-cheb/configure-pagefile-action@v1.3
         with:
             minimum-size: 8GB
             maximum-size: 32GB
